@@ -1,0 +1,128 @@
+body{
+    font-family: arial;
+	font-size: 14px;
+}
+
+#canvas{
+    width: 960px;
+	margin: 0 auto;
+	border: 1px solid silver;
+}
+
+#judul{
+	font-size: 50px;
+	color: #808080;
+	font-weight: bold;
+	padding: 20px 30px 5px 5px;
+	float: left;
+}
+#header{
+    font-size:20px;
+}
+#header img{
+	margin-bottom: -6px;
+}
+
+#menu {
+    background-color: #A52A2A;
+	font-family: arial;
+	float: right;
+	margin: 35px 20px 5px 5px;
+}
+#menu ul{
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li.utama{
+    display: inline-table;
+    
+}
+#menu ul li:hover{
+    background-color: #0033cc;
+}
+#menu ul li a{
+    display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+}
+.utama ul{
+    display: none;
+	position: absolute;
+	z-index: 2;
+}
+.utama:hover ul{
+    display: block;
+}
+.utama ul li{
+    display: block;
+	background-color: #6cf;
+	width: 140px;
+}
+
+.right{
+    float: right;
+}
+
+#isi{
+	min-height: 400px;
+	padding: 30px;
+	font-family: arial;
+	margin-top: 10%;
+}
+
+#pemesanan{
+	font-size: 10px;
+	margin-top: 10%;
+}
+
+#tanggal{
+	padding: 5px;
+	width: 220px;
+	text-align: center;
+	float: left;
+	margin-top: -4%;
+}
+
+#footer{
+    font-family: franklin gothic medium, segoe ui;
+	text-align:center;
+	padding: 20px;
+	background-color: #ccc;
+}
+#tentang{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 30px 10px;
+
+}
+#justify{
+	text-align: justify;
+}
+#pemesanan{
+	padding: 10px;
+	height: 60px;
+}
+#pesan{
+	width: 180px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	margin: 0px 10px;
+}
+#tipe_kamar{
+	font-size: 50px;
+	color: #5c92f4;
+	font-weight: bold;
+}
+#fasilitas_hotel{
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	margin: 10px 10px;
+}
